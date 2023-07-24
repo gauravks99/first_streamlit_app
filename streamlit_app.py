@@ -70,7 +70,7 @@ if streamlit.button('Get fruit list'):
     my_cnx.close()
     streamlit.dataframe(my_data_rows)
 
-streamlit.stop()
+#streamlit.stop()
 
 #allow end user to insert fruit
 def insert_row_snowflake(new_fruit):
